@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="text-center">
           <p className="mb-2">© 2025 Caroline Oliveira Advocacia</p>
           <p className="text-sm text-primary-foreground/80">
-            OAB/SP XXX.XXX | Direito Previdenciário
+            OAB/SP 467.495 | Direito Previdenciário
           </p>
         </div>
       </div>
