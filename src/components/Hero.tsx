@@ -1,9 +1,12 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-previdenciario.jpg";
+import heroImage from "@/assets/hero-background.jpg";
+import { MessageCircle } from "lucide-react";
 
 const Hero = () => {
-  const scrollToForm = () => {
-    document.getElementById('contato')?.scrollIntoView({ behavior: 'smooth' });
+  const handleWhatsAppClick = () => {
+    const message = "Olá! Gostaria de saber mais sobre meus direitos previdenciários.";
+    const whatsappUrl = `https://wa.me/5511999999999?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, '_blank');
   };
 
   return (
@@ -25,10 +28,11 @@ const Hero = () => {
           </p>
           <Button 
             size="lg" 
-            onClick={scrollToForm}
-            className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-8 py-6 text-lg animate-scale-in"
+            onClick={handleWhatsAppClick}
+            className="bg-[#25D366] hover:bg-[#20BA5A] text-white font-semibold px-8 py-6 text-lg animate-scale-in flex items-center gap-3"
           >
-            Fale com um Especialista
+            <MessageCircle className="w-6 h-6" />
+            Fale no WhatsApp Agora
           </Button>
         </div>
       </div>
