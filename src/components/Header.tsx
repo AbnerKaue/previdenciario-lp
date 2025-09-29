@@ -14,9 +14,10 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <img src={logo} alt="Caroline Oliveira Advocacia" className="h-12 w-auto" />
+            <span className="text-xl font-semibold text-primary">Caroline Oliveira</span>
           </div>
           
-          <button 
+          <button
             onClick={handleWhatsAppClick}
             className="bg-[#25D366] hover:bg-[#20BA5A] text-white px-6 py-2 rounded-md font-semibold transition-colors flex items-center gap-2"
           >

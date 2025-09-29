@@ -10,8 +10,8 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-[600px] flex items-center">
-      <div 
+    <section className="relative min-h-[700px] flex items-center">
+      <div
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
