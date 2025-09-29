@@ -12,9 +12,9 @@ const Header = () => {
     <header className="absolute top-0 left-0 right-0 z-50 py-4">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-3">
-            <img src={logo} alt="Caroline Oliveira Advocacia" className="h-12 w-auto drop-shadow-lg" />
-            <span className="text-xl font-semibold text-primary drop-shadow-[0_2px_4px_rgba(255,255,255,0.9)]">Caroline Oliveira</span>
+          <div className="flex items-center space-x-3 bg-white/90 px-4 py-2 rounded-lg shadow-lg">
+            <img src={logo} alt="Caroline Oliveira Advocacia" className="h-12 w-auto" />
+            <span className="text-xl font-semibold text-primary">Caroline Oliveira</span>
           </div>
           
           <button
