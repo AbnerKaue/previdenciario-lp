@@ -1,3 +1,6 @@
+# Site-Carol
+
+LP pessoal com direcionamento para whatsapp de contato.
 ## Quais tecnologias são usadas neste projeto?
 
 Este projeto foi construído com:
