@@ -5,7 +5,7 @@ import { MessageCircle } from "lucide-react";
 const Hero = () => {
   const handleWhatsAppClick = () => {
     const message = "Olá! Gostaria de saber mais sobre meus direitos previdenciários.";
-    const whatsappUrl = `https://wa.me/5516996081982?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/5516981445729?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
