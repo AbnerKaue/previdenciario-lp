@@ -4,22 +4,22 @@ const services = [
   {
     icon: FileCheck,
     title: "Aposentadorias",
-    description: "Aposentadoria por idade, tempo de contribuição, invalidez e especial. Análise completa do seu direito."
+    description: "Aposentadoria por idade, tempo de contribuição e aposentadoria especial. Realizamos análise completa do seu direito ao benefício."
   },
   {
     icon: Users,
     title: "Pensão por Morte",
-    description: "Auxílio para dependentes que perderam o segurado. Agilidade e suporte em momento difícil."
+    description: "Orientação jurídica para dependentes que perderam o segurado do INSS, com suporte completo para solicitação do benefício."
   },
   {
     icon: HeartHandshake,
     title: "BPC/LOAS",
-    description: "Benefício de Prestação Continuada para idosos e pessoas com deficiência de baixa renda."
+    description: "Benefício assistencial destinado a idosos e pessoas com deficiência de baixa renda que necessitam de apoio financeiro."
   },
   {
     icon: Calculator,
     title: "Revisão de Benefícios",
-    description: "Revisão de aposentadorias concedidas com valores incorretos. Recupere o que é seu."
+    description: "Análise de aposentadorias e benefícios concedidos com valores incorretos, buscando a correção e recuperação de valores devidos."
   }
 ];
 
