@@ -21,10 +21,11 @@ const Hero = () => {
       <div className="container relative z-10 mx-auto px-4 py-20">
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-6xl font-bold text-primary-foreground mb-6 animate-fade-in">
-            Conquiste Seu Benefício Previdenciário
+            Especialista em Aposentadoria e Benefícios do INSS
           </h1>
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 animate-fade-in">
-            Especialistas em direito previdenciário prontos para defender seus direitos junto ao INSS
+            Atuação em Direito Previdenciário com análise completa do seu direito à aposentadoria e benefícios do INSS.
+            
           </p>
           <Button 
             size="lg" 
