@@ -35,7 +35,7 @@ const Hero = () => {
             <MessageCircle className="w-6 h-6" />
             Falar com um Esppecialista no WhatsApp
           </Button>
-                    <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 animate-fade-in">
+                    <p className="text-x2 md:text-2xl text-primary-foreground/90 mb-8 animate-fade-in">
             Atuação em Direito Previdenciário com análise completa do seu direito à aposentadoria e benefícios do INSS.
         </div>
       </div>
