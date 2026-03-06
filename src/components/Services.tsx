@@ -29,10 +29,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Como Podemos Ajudar
+            Soluções em Aposentadoria e Benefícios do INSS
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Atuamos em todas as áreas do direito previdenciário com experiência e dedicação
+            Orientação jurídica especializada para análise, concessão e revisão de aposentadorias e benefícios do INSS, com avaliação individual de cada caso.
           </p>
         </div>
 
