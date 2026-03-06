@@ -25,7 +25,7 @@ const Hero = () => {
             Especialista em Aposentadoria e Benefícios do INSS
           </h1>
 
-          <p className="text-xl md:text-2xl text-primary-foreground/90 mb-15 animate-fade-in">
+          <p className="text-xl md:text-2xl text-primary-foreground/90 mb-16 animate-fade-in">
             Atuação em Direito Previdenciário com análise completa do seu direito à aposentadoria e benefícios do INSS.
           </p>
 
