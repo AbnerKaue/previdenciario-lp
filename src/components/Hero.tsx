@@ -35,7 +35,7 @@ const Hero = () => {
             <MessageCircle className="w-6 h-6" />
             Falar com um Especialista no WhatsApp
           </Button>
-                        <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 animate-fade-in">
+        <p className="text-base md:text-lg text-primary-foreground/90 mb-8 animate-fade-in">
             Atendimento presencial e online.
             
           </p>
