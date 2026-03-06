@@ -3,8 +3,8 @@ import { Shield, Clock, Award } from "lucide-react";
 const benefits = [
   {
     icon: Shield,
-    title: "Experiência Comprovada",
-    description: "Anos de atuação em direito previdenciário com centenas de casos bem-sucedidos"
+    title: "Experiência em Direito Previdenciário",
+    description: "Atuação focada em benefícios do INSS, com análise detalhada de cada caso para identificar o melhor caminho para concessão ou revisão do benefício"
   },
   {
     icon: Clock,
@@ -13,8 +13,8 @@ const benefits = [
   },
   {
     icon: Award,
-    title: "Compromisso com Resultados",
-    description: "Trabalhamos incansavelmente para garantir seus direitos previdenciários"
+    title: "Análise completa do seu direito",
+    description: "Realizamos avaliação do histórico de contribuições, documentos e regras previdenciárias para verificar a melhor estratégia para obtenção do benefício"
   }
 ];
 
@@ -24,7 +24,7 @@ const Benefits = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Por Que Escolher Nosso Escritório
+            Por que contar com um advogado previdenciário?
           </h2>
         </div>
 
