@@ -25,7 +25,7 @@ const Hero = () => {
             Especialista em Aposentadoria e Benefícios do INSS
           </h1>
 
-          <p className="text-xl md:text-2xl text-primary-foreground/90 mb-10 animate-fade-in">
+          <p className="text-xl md:text-2xl text-primary-foreground/90 mb-15 animate-fade-in">
             Atuação em Direito Previdenciário com análise completa do seu direito à aposentadoria e benefícios do INSS.
           </p>
 
@@ -38,7 +38,7 @@ const Hero = () => {
             Falar com um Especialista no WhatsApp
           </Button>
 
-          <p className="text-base md:text-lg text-primary-foreground/90 mt-6 animate-fade-in">
+          <p className="text-base md:text-lg text-primary-foreground/90 animate-fade-in">
             Atendimento presencial e online.
           </p>
 
