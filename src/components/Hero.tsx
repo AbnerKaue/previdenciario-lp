@@ -36,7 +36,7 @@ const Hero = () => {
             Falar com um Especialista no WhatsApp
           </Button>
                         <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 animate-fade-in">
-            Atuação em Direito Previdenciário com análise completa do seu direito à aposentadoria e benefícios do INSS.
+            Atendimento presencial e online.
             
           </p>
         </div>
