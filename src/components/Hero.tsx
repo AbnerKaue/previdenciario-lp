@@ -33,7 +33,7 @@ const Hero = () => {
             className="bg-[#25D366] hover:bg-[#20BA5A] text-white font-semibold px-8 py-6 text-lg animate-scale-in flex items-center gap-3"
           >
             <MessageCircle className="w-6 h-6" />
-            Falar com um Esppecialista no WhatsApp
+            Falar com um Especialista no WhatsApp
           </Button>
         </div>
       </div>
