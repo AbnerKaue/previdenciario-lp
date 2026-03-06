@@ -19,7 +19,7 @@ const Header = () => {
             className="flex items-center space-x-3 bg-white/90 px-4 py-2 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
           >
             <img src={logo} alt="Caroline Oliveira Advocacia" className="h-12 w-auto" />
-            <span className="text-xl font-semibold text-primary">Caroline Oliveira</span>
+            <span className="text-xl font-semibold text-primary">Caroline Oliveira Advocacia Previdenciária</span>
           </a>
           
           <button
