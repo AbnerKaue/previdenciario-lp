@@ -17,16 +17,18 @@ const Hero = () => {
       >
         <div className="absolute inset-0 bg-primary/80" />
       </div>
-      
+
       <div className="container relative z-10 mx-auto px-4 py-20">
         <div className="max-w-3xl">
+
           <h1 className="text-4xl md:text-6xl font-bold text-primary-foreground mb-6 animate-fade-in">
             Especialista em Aposentadoria e Benefícios do INSS
           </h1>
-          <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 animate-fade-in">
+
+          <p className="text-xl md:text-2xl text-primary-foreground/90 mb-10 animate-fade-in">
             Atuação em Direito Previdenciário com análise completa do seu direito à aposentadoria e benefícios do INSS.
-            
           </p>
+
           <Button 
             size="lg" 
             onClick={handleWhatsAppClick}
@@ -35,10 +37,11 @@ const Hero = () => {
             <MessageCircle className="w-6 h-6" />
             Falar com um Especialista no WhatsApp
           </Button>
-        <p className="text-base md:text-lg text-primary-foreground/90 mb-8 animate-fade-in">
+
+          <p className="text-base md:text-lg text-primary-foreground/90 mt-6 animate-fade-in">
             Atendimento presencial e online.
-            
           </p>
+
         </div>
       </div>
     </section>
