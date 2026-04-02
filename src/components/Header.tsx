@@ -1,23 +1,25 @@
 import logo from "@/assets/logo.png";
 import { MessageCircle } from "lucide-react";
 
-const handleWhatsAppClick = () => {
-  const message = "Olá! Gostaria de saber mais sobre direito previdenciário.";
-  const whatsappUrl = `https://wa.me/5516981445729?text=${encodeURIComponent(message)}`;
+const Header = () => {
 
-  if (window.gtag) {
-    window.gtag('event', 'conversion', {
-      send_to: 'AW-17931866690/3tZ0CKehkJQcEMKkyuZC',
-      value: 1.0,
-      currency: 'BRL',
-      event_callback: () => {
-        window.open(whatsappUrl, '_blank');
-      }
-    });
-  } else {
-    window.open(whatsappUrl, '_blank');
-  }
-};
+  const handleWhatsAppClick = () => {
+    const message = "Olá! Gostaria de saber mais sobre direito previdenciário.";
+    const whatsappUrl = `https://wa.me/5516981445729?text=${encodeURIComponent(message)}`;
+
+    if (window.gtag) {
+      window.gtag('event', 'conversion', {
+        send_to: 'AW-17931866690/3tZ0CKehkJQcEMKkyuZC',
+        value: 1.0,
+        currency: 'BRL',
+        event_callback: () => {
+          window.open(whatsappUrl, '_blank');
+        }
+      });
+    } else {
+      window.open(whatsappUrl, '_blank');
+    }
+  };
 
   return (
     <header className="absolute top-0 left-0 right-0 z-50 py-4">
@@ -30,7 +32,9 @@ const handleWhatsAppClick = () => {
             className="flex items-center space-x-3 bg-white/90 px-4 py-2 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
           >
             <img src={logo} alt="Caroline Oliveira Advocacia" className="h-12 w-auto" />
-            <span className="text-xl font-semibold text-primary">Caroline Oliveira Advocacia Previdenciária</span>
+            <span className="text-xl font-semibold text-primary">
+              Caroline Oliveira Advocacia Previdenciária
+            </span>
           </a>
           
           <button
