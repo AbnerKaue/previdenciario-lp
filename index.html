@@ -25,7 +25,22 @@
     <meta name="twitter:site" content="@lovable_dev" />
     <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
   </head>
-
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (url) {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+    'send_to': 'AW-17931866690/3tZ0CKehkJQcEMKkyuZC',
+    'value': 1.0,
+    'currency': 'BRL',
+    'event_callback': callback
+  });
+  return false;
+}
+</script>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
