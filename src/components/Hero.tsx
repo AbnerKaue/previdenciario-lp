@@ -4,10 +4,22 @@ import { MessageCircle } from "lucide-react";
 
 const Hero = () => {
   const handleWhatsAppClick = () => {
-    const message = "Olá! Gostaria de saber mais sobre meus direitos previdenciários.";
-    const whatsappUrl = `https://wa.me/5516981445729?text=${encodeURIComponent(message)}`;
+  const message = "Olá! Gostaria de saber mais sobre meus direitos previdenciários.";
+  const whatsappUrl = `https://wa.me/5516981445729?text=${encodeURIComponent(message)}`;
+
+  if (window.gtag) {
+    window.gtag('event', 'conversion', {
+      send_to: 'AW-17931866690/3tZ0CKehkJQcEMKkyuZC',
+      value: 1.0,
+      currency: 'BRL',
+      event_callback: () => {
+        window.open(whatsappUrl, '_blank');
+      }
+    });
+  } else {
     window.open(whatsappUrl, '_blank');
-  };
+  }
+};
 
   return (
     <section className="relative min-h-[800px] flex items-center">
