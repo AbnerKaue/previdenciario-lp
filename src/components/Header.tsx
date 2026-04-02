@@ -1,12 +1,22 @@
 import logo from "@/assets/logo.png";
 import { MessageCircle } from "lucide-react";
 
-const Header = () => {
-  const handleWhatsAppClick = () => {
-    const message = "Olá! Gostaria de saber mais sobre direito previdenciário.";
-    const whatsappUrl = `https://wa.me/5516981445729?text=${encodeURIComponent(message)}`;
-    window.open(whatsappUrl, '_blank');
-  };
+const handleWhatsAppClick = () => {
+  const message = "Olá! Gostaria de saber mais sobre direito previdenciário.";
+  const whatsappUrl = `https://wa.me/5516981445729?text=${encodeURIComponent(message)}`;
+
+
+  if (window.gtag) {
+    window.gtag('event', 'conversion', {
+      send_to: 'AW-17931866690/3tZ0CKehkJQcEMKkyuZC',
+      value: 1.0,
+      currency: 'BRL'
+    });
+  }
+
+ 
+  window.open(whatsappUrl, '_blank');
+};
 
   return (
     <header className="absolute top-0 left-0 right-0 z-50 py-4">
